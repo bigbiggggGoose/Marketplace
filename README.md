@@ -85,12 +85,8 @@ marketplace-vue3
 - 代理：`vite.config.ts` 中 `server.proxy['/api'].target`
 - 基础地址：`src/api/http.ts` 的 `baseURL`
 
-### 后续开发建议
-- 与后端约定接口（鉴权、上传、搜索、审核流程）
-- 替换占位组件与静态数据，接入真实 API
-- 增加请求封装与错误边界、全局埋点与权限守卫
-
 ### 后端与数据库
 - 数据库使用 MySQL。表结构与 API 契约见 `docs/backend-spec.md`。
 - 本地后端建议运行在 `http://localhost:8085`，与前端代理匹配。
+
 
